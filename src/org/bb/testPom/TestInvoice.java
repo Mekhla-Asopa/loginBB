@@ -44,7 +44,7 @@ public class TestInvoice {
 	Thread.sleep(4000);
 	in.firstNameText("Mekhla");
 	Thread.sleep(2000);
-	in.lastNameText("Dutta");
+	in.lastNameText("Asopa");
 	Thread.sleep(2000);
 	in.timeField();
 	Thread.sleep(2000);
@@ -54,7 +54,7 @@ public class TestInvoice {
 	Thread.sleep(6000);
 	in.commitClick();
 	Thread.sleep(7000);
-	in.orgNameText("Qspider");
+	in.orgNameText("Big_Binary");
 	Thread.sleep(4000);
 	in.orgCommitClick();
 	Thread.sleep(4000);
