@@ -25,11 +25,11 @@ public class Invoice {
 	private WebElement control;
 	@FindBy(xpath = "/html/body/div[3]/div/div[2]/div/div/div[2]/form/div[5]/div/div/label/div[1]")
 	private WebElement checkb;
-	@FindBy(xpath = "//button[@class='btn btn-secondary']")
+	@FindBy(xpath = "//input[@name='commit']")
 	private WebElement commit;
 	@FindBy(xpath = "//input[@name='name']")
 	private WebElement orgname;
-	@FindBy(xpath = "//input[@name='commit']/parent::div")
+	@FindBy(xpath = "//input[@name='commit']")
 	private WebElement orgcommit;
 	@FindBy(xpath = "//a[@class='btn btn-outline']")
 	private WebElement skip;
